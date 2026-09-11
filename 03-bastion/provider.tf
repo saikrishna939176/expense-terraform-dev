@@ -5,13 +5,7 @@ terraform {
       version = "5.48.0"
     }
   }
-  backend "s3" {
-    bucket = "daws78s-remote-state"
-    key    = "expense-dev-bastion"
-    region = "us-east-1"
-    dynamodb_table = "daws78s-locking"
-  }
-}
+
 
 #provide authentication here
 provider "aws" {
