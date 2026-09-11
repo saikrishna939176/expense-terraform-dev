@@ -5,7 +5,7 @@ terraform {
       version = "5.48.0"
     }
   }
-
+}
 
 #provide authentication here
 provider "aws" {
